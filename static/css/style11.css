@@ -481,7 +481,7 @@ a.btn-boxy {
 .main-header {
   height: 60px;
   width: 100%;
-  background: #fff;
+  background: #ACA9A0;
   position: fixed;
   top: 0;
   left: 0;
@@ -544,14 +544,14 @@ a.btn-boxy {
       padding: 0 15px;
       height: 32px;
       line-height: 32px;
-      background: #fff;
+      background: #D7D3C8;
       border: 1px solid #00539F;
       color: #00539F;
       -webkit-box-shadow: 3px 3px 0px 0 #002147;
       -moz-box-shadow: 3px 3px 0px 0 #002147;
       box-shadow: 3px 3px 0px 0 #002147; }
       .main-header .container a.btn-boxy.buy-tickets:hover {
-        background: #00539F;  color: #fff}
+        background: #C2BEB4; }
     .main-header .container .top-navigation {
       float: right;
       margin-top: 24px;
@@ -561,6 +561,7 @@ a.btn-boxy {
         .main-header .container .top-navigation ul li {
           display: inline-block;
           vertical-align: baseline;
+		  horizontal-align: center; 
           zoom: 1;
           *display: inline;
           *vertical-align: auto;
@@ -642,24 +643,24 @@ a.btn-boxy {
   height: 60px; }
 
 .home-sticky-nav {
-  background: #fff;
+  background: #ACA9A0;
   height: 50px;
- /* border-bottom: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
   -webkit-box-shadow: 0px 2px 3px 0 rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 2px 3px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 2px 3px 0 rgba(0, 0, 0, 0.1);*/ }
+  box-shadow: 0px 2px 3px 0 rgba(0, 0, 0, 0.1); }
   .home-sticky-nav .top-navigation {
     width: 100%;
     height: inherit; }
     .home-sticky-nav .top-navigation ul {
       list-style: none;
       width: 100%;
-      height: inherit;
-      text-align: center; }
+      height: inherit; }
       .home-sticky-nav .top-navigation ul li {
         width: 14%;
-        display: inline-block;
-      }
+        margin: 0;
+        float: left;
+        height: inherit; }
         .home-sticky-nav .top-navigation ul li a {
           display: block;
           height: inherit;
@@ -1018,16 +1019,7 @@ a.btn-boxy {
   user-select: none; }
 
 .main-footer {
-  overflow: hidden; 
-  clear: both;
-  background-color: #e6485c;
-}
-.footer-container > p{
-  line-height: 20px;
-  color: #fff;
-  font-size: 22px;
-  margin: 0 0 10px 0;
-}
+  overflow: hidden; }
   .main-footer .bg-trianlge {
     position: absolute;
     z-index: 1;
@@ -1043,48 +1035,48 @@ a.btn-boxy {
       .main-footer .bg-trianlge {
         display: none; } }
   .main-footer .footer-container {
-    padding-top: 40px;
     position: relative;
     z-index: 2;
+    height: 80px;
+    padding-top: 40px;
 	padding-bottom: 500px;
     text-align: center;
+    color: #316bbd;
+    font-size: 22px;
     background-repeat: no-repeat;
     background-position: center bottom;
     background-image: url("../images/footer_coder_illustration.gif"); }
     @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
       .main-footer .footer-container {
         background-image: url("../images/footer_coder_illustration%402x.gif");
-        -webkit-background-size: 534px 450px;
-        -moz-background-size: 534px 450px;
-        -o-background-size: 534px 450px;
-        background-size: 534px 450px; } 
-      }
-    /*.main-footer .footer-container a {
+        -webkit-background-size: 800px 600pxpx;
+        -moz-background-size: 800px 600px;
+        -o-background-size: 800px 600px;
+        background-size: 800px 600px; } }
+    .main-footer .footer-container a {
       text-indent: 100%;
-      width: 72px;
-      height: 22px;
+      width: 215px;
+      height: 15px;
       display: inline-block;
       background-repeat: no-repeat;
       background-position: center;
-      background-image: url("../images/uncommon.png"); }*/
+      background-image: url("../images/uncommon.png"); }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-        /*.main-footer .footer-container a {
+        .main-footer .footer-container a {
           background-image: url("../images/uncommon%402x.png");
-          -webkit-background-size: 72px 9px;
-          -moz-background-size: 72px 9px;
-          -o-background-size: 72px 9px;
-          background-size: 72px 9px; }*/ }
-          .footer-container a{color: #fff}
-          .footer-container a:hover{}
-      /*.main-footer .footer-container a:hover {
-        background-image: url("../images/uncommon_black.png"); }*/
+          -webkit-background-size: 430px 30px;
+          -moz-background-size: 430px 30px;
+          -o-background-size: 430px 30px;
+          background-size: 430px 30px; } }
+      .main-footer .footer-container a:hover {
+        background-image: url("../images/uncommon_black.png"); }
         @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
           .main-footer .footer-container a:hover {
             background-image: url("../images/uncommon_black%402x.png");
-            -webkit-background-size: 72px 9px;
-            -moz-background-size: 72px 9px;
-            -o-background-size: 72px 9px;
-            background-size: 72px 9px; } }
+            -webkit-background-size: 430px 30px;
+            -moz-background-size: 430px 30px;
+            -o-background-size: 430px 30px;
+            background-size: 430px 30px; } }
     @media screen and (max-width: 959px), screen and (max-width: 959px) and (-webkit-min-device-pixel-ratio: 1.3) {
       .main-footer .footer-container {
         background-size: auto 380px;
@@ -1104,10 +1096,10 @@ a.btn-boxy {
         @media only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1.3) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-width: 600px) and (-moz-min-device-pixel-ratio: 2), only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1.3) and (-moz-min-device-pixel-ratio: 2), only screen and (max-width: 600px) and (-o-min-device-pixel-ratio: 2 / 1), only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1.3) and (-o-min-device-pixel-ratio: 2 / 1), only screen and (max-width: 600px) and (min-device-pixel-ratio: 2), only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1.3) and (min-device-pixel-ratio: 2), only screen and (max-width: 600px) and (min-resolution: 192dpi), only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1.3) and (min-resolution: 192dpi), only screen and (max-width: 600px) and (min-resolution: 2dppx), only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1.3) and (min-resolution: 2dppx) {
           .main-footer .footer-container a {
             background-image: url("../images/uncommon_black%402x.png");
-            -webkit-background-size: 72px 9px;
-            -moz-background-size: 72px 9px;
-            -o-background-size: 72px 9px;
-            background-size: 72px 9px; } }
+            -webkit-background-size: 430px 30px;
+            -moz-background-size: 430px 30px;
+            -o-background-size: 430px 30px;
+            background-size: 430px 30px; } }
 
 .hexagon {
   overflow: hidden;
@@ -1865,12 +1857,12 @@ a.btn-boxy {
           -o-background-size: 52px 60px;
           background-size: 52px 60px; } }
     .page-home.section-updates .twitter .twitter-wrapper {
-      padding: 0 0 0 10px;
+      border: 1px solid #49B5DF;
+      padding: 0 10px 10px;
       height: 430px;
-      /*border: 1px solid #49B5DF;
       -webkit-box-shadow: 5px 5px 0px 0 #49b5df;
       -moz-box-shadow: 5px 5px 0px 0 #49b5df;
-      box-shadow: 5px 5px 0px 0 #49b5df;*/ }
+      box-shadow: 5px 5px 0px 0 #49b5df; }
   @media screen and (max-width: 600px), screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1.3) {
     .page-home.section-updates {
       padding: 20px 0; }
@@ -2393,12 +2385,12 @@ a.btn-boxy {
           -webkit-box-shadow: 3px 3px 0px 0 #6799b5;
           -moz-box-shadow: 3px 3px 0px 0 #6799b5;
           box-shadow: 3px 3px 0px 0 #6799b5; }
-          .section-map .map-overlay .venue-details .content a.btn-boxy.get-directions:hover {
+        .section-map .map-overlay .venue-details .content a.btn-boxy.get-directions:hover {
             background: #eff4f7; }
   .section-map.home {
     border-bottom: none; }
     .section-map.home .map-wrapper {
-      height: 640px; }
+      height: 590px; }
     .section-map.home .map-overlay {
       top: 140px; }
     @media screen and (max-width: 600px), screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1.3) {
