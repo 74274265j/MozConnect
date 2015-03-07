@@ -481,7 +481,7 @@ a.btn-boxy {
 .main-header {
   height: 60px;
   width: 100%;
-  background: #fff;
+  background: #D7D3C8;
   position: fixed;
   top: 0;
   left: 0;
@@ -642,7 +642,7 @@ a.btn-boxy {
   height: 60px; }
 
 .home-sticky-nav {
-  background: #fff;
+  background: #D7D3C8;
   height: 50px;
  /* border-bottom: 1px solid #dedede;
   -webkit-box-shadow: 0px 2px 3px 0 rgba(0, 0, 0, 0.1);
@@ -1427,6 +1427,19 @@ a.btn-boxy {
             -moz-background-size: 22px 26px;
             -o-background-size: 22px 26px;
             background-size: 22px 26px; } }
+			     
+	  .page-home.section-speakers .block a.social.facebook {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url("../images/facebook_small_icon.png"); }
+        @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+          .page-home.section-speakers .block a.social.facebook {
+            background-image: url("../images/facebook_small_icon%402x.png");
+            -webkit-background-size: 22px 26px;
+            -moz-background-size: 22px 26px;
+            -o-background-size: 22px 26px;
+            background-size: 22px 26px; } }
+			
       .page-home.section-speakers .block a.social.github {
         background-repeat: no-repeat;
         background-position: center;
