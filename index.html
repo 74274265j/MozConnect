@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- META -->
+  <title>MozConnect | March 20th - 21st</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=0"/>
+  <meta name="description" content="" />
+  <link rel="stylesheet" type="text/css" href="static/css/style.css" media="all" />
+  <link href="static/leaflet/leaflet.css" rel="stylesheet">
+
+  <script type="text/javascript" src="static/js/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="static/js/energize.min.js"></script>
+  <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script> -->
+<!--  <script src="static/leaflet/leaflet.js"></script> -->
+  <script src="static/js/canvasjs.min.js"></script>
+  <script type="text/javascript" src="static/js/main.js"></script>
+
+  <!--[if lt IE 9]>
+  <script src="/2014/static/js/html5shiv.js"></script>
+  <![endif]-->
+  
+  
+  <!-- Scrollback chatroom begins-->
+  <script>window.scrollback = {"room":"mozconnect15","form":"toast","minimize":false};(function(d,s,h,e){e=d.createElement(s);e.async=1;e.src=(location.protocol === "https:" ? "https:" : "http:") + "//scrollback.io/client.min.js";d.getElementsByTagName(s)[0].parentNode.appendChild(e);}(document,"script"));</script>
+  <!-- Scrollback chatroom ends-->
+  
+  
+    <!-- leafletjs for Google maps start-->
+   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.3.1/leaflet.css" />
+<script src="http://cdn.leafletjs.com/leaflet-0.3.1/leaflet.js"></script>
+<script src="http://maps.google.com/maps/api/js?v=3.2&sensor=false"></script>
+<script src="http://matchingnotes.com/javascripts/leaflet-google.js"></script> 
+  <!-- Leafletjs for Google maps ends-->
+  
+</head>
+<body>
+    <section class="main-header-home">
+    <div class="container">
+      <h1 class="logo">MozConnect 2015, Indore-Bhopal</h1>
+      <div class="desc">
+        MozConnect is the annual event in Central India region with the clear ambition to unite the efforts of collaborators to build a better community. <br><!--This year we are coming up with more aggressive approach putting focus on growing contributor base from Madhya Pradesh.--> Come and Join us at
+      </div>
+      <div class="events-info">
+        <div class="event-item">
+          <div class="name">Indore</div>
+          <div class="date">20 March</div>
+          <div class="border-line orange"></div>
+        </div>
+        <div class="event-item">
+          <div class="name">Bhopal</div>
+          <div class="date">21 March</div>
+          <div class="border-line orange"></div>
+        </div>
+        <div class="clr"></div>
+      </div>
+      <a href="https://docs.google.com/forms/d/1G8mNkv5_kDC-LCql4YUjVnrJbLAMnceCLUgd0oZqcd0/viewform" target="_blank" class="btn-boxy buy-tickets">Attendee Registration</a>
+      <div class="clr"></div>
+    </div>
+  </section>
+<!-- sticky nav -->
+  <header class="main-header home">
+    <div class="container">
+      <a href="index.html" class="logo"><h1>MozConnect 2015</h1></a>
+      <a class="mobile_icon"></a>
+      <a href="https://docs.google.com/forms/d/1G8mNkv5_kDC-LCql4YUjVnrJbLAMnceCLUgd0oZqcd0/viewform" target="_blank" class="btn-boxy buy-tickets">Attendee Registration</a>
+      <nav class="top-navigation" role="navigation">
+        <ul>
+          <li class="speakers">
+            <a href="#section_speakers">Speakers</a>
+            <div class="border-line short"></div>
+          </li>
+          <li class="schedule">
+            <a href="#section_schedule">Schedule</a>
+            <div class="border-line short"></div>
+          </li>
+          <li class="venue">
+            <a href="#section_venue">Venue</a>
+            <div class="border-line short"></div>
+          </li>
+           <li class="blog">
+            <a href="#section_updates">Event Updates</a>
+            <div class="border-line short"></div>
+          </li>
+          <li class="coc">
+            <a href="blog/pycon-india-code-of-conduct/index.html">Code of Conduct</a>
+            <div class="border-line short"></div>
+          </li>
+          <li class="blog">
+            <a href="blog/faq-frequently-asked-questions/index.html">FAQ</a>
+            <div class="border-line short"></div>
+          </li>
+        </ul>
+      </nav>
+      <div class="clr"></div>
+    </div>
+  </header>
+
+  <div class="home-sticky-nav">
+    <div class="container">
+      <nav class="top-navigation">
+        <ul>
+          <li class="speakers">
+            <a href="#section_speakers">Speakers</a>
+          </li>
+          <li class="schedule">
+            <a href="#section_schedule">Schedule</a>
+          </li>
+          <li class="venue">
+            <a href="#section_venue">Venue</a>
+          </li>
+          <li class="blog">
+            <a href="#section_updates">Event Updates</a>
+          </li>
+          <li class="coc">
+            <a href="blog/pycon-india-code-of-conduct/index.html">Code of Conduct</a>
+          </li>
+          <li class="blog">
+            <a href="blog/faq-frequently-asked-questions/index.html">FAQ</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <nav class="top-navigation-mobile">
+    <ul>
+      <li class="speakers active">
+        <a href="speakers.html">Speakers</a>
+      </li>
+      <li class="schedule">
+        <a href="schedule.html">Schedule</a>
+      </li>
+      <li class="venue">
+        <a href="venue.html">Venue</a>
+      </li>
+      <li class="blog">
+        <a href="blog/index.html">Event Updates</a>
+      </li>
+      <li class="coc">
+        <a href="blog/pycon-india-code-of-conduct/index.html">Code of Conduct</a>
+      </li>
+      <li class="blog">
+        <a href="blog/faq-frequently-asked-questions/index.html">FAQ</a>
+      </li>
+
+    </ul>
+  </nav>
+
+  <!-- Speakers -->
+  
+  <section class="page-home section-speakers" id="section_speakers">
+    <div class="container">
+      <a href="speakers.html" class="btn-boxy view-all">View All</a>
+      <h2>Speakers</h2>
+
+      <div class="block-wrapper">
+        <div class="block">
+          <div class="bg"></div>
+          <div class="block-content">
+            <div class="thumb home">
+              <div class="hexagon hexagon2"><div class="hexagon-in1">
+                <a href="speakers.html#speaker_1"><div class="hexagon-in2" style="background-image: url(static/images/speaker_sayak_cropped.jpg);"></div></a>
+              </div></div>
+            </div>
+            <h3><a href="speakers.html#speaker_1">Sayak Sarkar</a></h3>
+            <div class="work">Keynote Speaker</div>
+            <a href="https://twitter.com/kushaldas" target="_blank" class="social twitter"></a>
+            <a href="https://github.com/kushaldas" target="_blank" class="social github"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="block-wrapper">
+        <div class="block">
+          <div class="bg"></div>
+          <div class="block-content">
+            <div class="thumb home">
+              <div class="hexagon hexagon2"><div class="hexagon-in1">
+                <a href="speakers.html#speaker_2"><div class="hexagon-in2" style="background-image: url(static/images/speaker_chandrakant.jpg);"></div></a>
+              </div></div>
+            </div>
+            <h3><a href="speakers.html#speaker_2">Chandrakant Dhutadmal</a></h3>
+            <div class="work">Keynote Speaker</div>
+            <a href="https://www.facebook.com/chandrakant.dhutadmal" target="_blank" class="social facebook"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="clr"></div>
+    </div>
+  </section>
+
+  <section class="page-home section-schedule" id="section_schedule">
+    <div class="container">
+      <h2>Schedule</h2>
+
+      <div class="schedule-item left">
+        <h3>Indore</h3>
+        <div class="date">20 <span>March</span></div>
+        <div class="day">Friday</div>
+        <div class="border-line "></div>
+        <div class="intro">
+         Lightening Talks<br>
+         Power-Sessions<br>
+		 Hackathons<br>
+		 Speed Geeking | Product Demos<br>
+		 Womoz<br>
+        </div>
+      <!--  <a href="schedule.html" class="btn-boxy">View Schedule</a> -->
+      </div>
+
+      <div class="schedule-item right">
+        <h3>Bhopal</h3>
+        <div class="date">21 <span>March</span></div>
+        <div class="day">Saturday</div>
+        <div class="border-line "></div>
+        <div class="clr"></div>
+        <div class="intro">
+         Lightening Talks<br>
+         Power-Sessions<br>
+		 Hackathons<br>
+		 Speed Geeking | Product Demos<br>
+		 Womoz<br>
+        </div>
+        <!-- <a href="schedule.html#schedule_conference" class="btn-boxy">View Schedule</a> -->
+      </div>
+
+      <div class="clr"></div>
+    </div>
+  </section>
+
+  <section class="page-home section-venue" id="section_venue">
+    <div class="container-wrapper">
+      <div class="container">
+        <a href="venue.html" class="btn-boxy view-all">View Details</a>
+        <h2>Venue</h2>
+      </div>
+    </div>
+
+    <div class="section-map home">
+      <div class="map-wrapper home" id="map_wrapper">
+	   <div style="width:inherit; height:inherit" id="map"></div>
+<script type='text/javascript'>
+var map = new L.Map('map', {center: new L.LatLng(23.9740114,78.4229611), zoom: 9});
+var googleLayer = new L.Google('ROADMAP');
+map.addLayer(googleLayer);
+</script> 
+	  
+	  
+	  </div>
+      <div class="map-overlay">
+        <div class="container">
+          <div class="venue-details">
+            <img class="bg" src="static/images/venue_image1.jpg"/>
+            <div class="content">
+              <div class="name">Indore Institute of Science & Technology</div>
+              <div class="border-line"></div>
+              <div class="address">
+				Pithampur Road <br>
+				Opposite IIM, <br>
+				Rau, Indore, <br>
+				MP 453331.
+              </div>
+              <a href="https://www.google.com/maps/dir//Indore+Institute+of+Science+and+Technology,+Pithampur+Road+Opposite+Indian+Institute+of+Management,Rau,+Indore,+Madhya+Pradesh+453331,+India/@22.630608,75.780816,17z/data=!4m12!1m3!3m2!1s0x3962f939228d75dd:0xcf9efd7925de48cc!2sIndore+Institute+of+Science+and+Technology!4m7!1m0!1m5!1m1!1s0x3962f939228d75dd:0xcf9efd7925de48cc!2m2!1d75.780816!2d22.630608" target="_blank" class="btn-boxy get-directions">Get Directions</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+<!--
+  <section class="page-home section-sponsors" id="section_sponsors">
+    <div class="container">
+      <a href="sponsors.html" class="btn-boxy view-all">View All</a>
+      <h2>Sponsors</h2>
+
+      <h3>Platinum</h3>
+      <div class="border-line white"></div>
+
+      <div class="sponsors-wrapper">
+        <div class="sponsor-item platinum"><img src="static/images/sponsor_zeomega.jpg"/></div>
+        <div class="clr"></div>
+      </div>
+
+      <h3>Gold</h3>
+      <div class="border-line white"></div>
+
+      <div class="sponsors-wrapper">
+        <div class="sponsor-item gold"><img src="static/images/sponsor_plotly.png"/></div>
+        <div class="sponsor-item gold"><img src="static/images/sponsor_bluejeans.png"/></div>
+        <div class="sponsor-item gold"><img src="static/images/sponsor_goibibo.png"/></div>
+        <div class="sponsor-item gold"><img src="static/images/sponsor_knowlarity.png"/></div>
+        <div class="clr"></div>
+      </div>
+
+      <h3>Silver</h3>
+      <div class="border-line white"></div>
+
+      <div class="sponsors-wrapper">
+        <div class="sponsor-item silver"><img src="static/images/sponsor_projectplace_new.png"/></div>
+        <div class="sponsor-item silver"><img src="static/images/sponsor_helpshift.png"/></div>
+        <div class="sponsor-item silver"><img src="static/images/sponsor_fspace.png"/></div>
+        <div class="sponsor-item silver"><img src="static/images/sponsor_mysql.png"/></div>
+        <div class="sponsor-item silver"><img src="static/images/sponsor_redhat.png"/></div>
+        <div class="clr"></div>
+      </div>
+
+      <h3>Accommodation Partner</h3>
+      <div class="border-line white"></div>
+
+      <div class="sponsors-wrapper">
+        <div class="sponsor-item bronze"><a href="venue.html#airbnb"><img src="static/images/partner_airbnb.png"/></a></div>
+        <div class="clr"></div>
+      </div>
+
+    </div>
+  </section>
+-->
+
+  <section class="page-home section-updates" id="section_updates">
+    <div class="container">
+
+      <div class="blog">
+        <h2>Flickr Gallery</h2>
+			
+			<div style="width:500px;height:420px;text-align:center;margin:auto;" ><object width="500" height="500" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"> <param name="flashvars" value="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2F127740959%40N02%2Fshow&amp;page_show_back_url=%2Fphotos%2F127740959%40N02%2F&amp;user_id=127740959@N02" /> <param name="allowFullScreen" value="false" /> <param name="src" value="https://www.flickr.com/apps/slideshow/show.swf?v=71649" /> <embed width="500" height="420" type="application/x-shockwave-flash" src="https://www.flickr.com/apps/slideshow/show.swf?v=71649" flashvars="offsite=true&amp;lang=en-us&amp;page_show_url=%2Fphotos%2F127740959%40N02%2Fshow&amp;page_show_back_url=%2Fphotos%2F127740959%40N02%2F&amp;user_id=127740959@N02" allowFullScreen="true" /> </object><br /></div>
+
+      </div>
+
+      <div class="twitter">
+        <h2>Twitter</h2>
+
+        <div class="twitter-wrapper">
+            <a class="twitter-timeline"  href="https://twitter.com/hashtag/mozconnect" data-widget-id="565461869436366848">#mozconnect Tweets</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+      </div>
+
+      <div class="clr"></div>
+
+    </div>
+  </section>
+
+
+  <footer class="main-footer clearfix">
+    <div class="footer-container">
+      <p class="logo_uncommon">Copyright &copy; 2015 MozConnect. </p>
+    </div>
+  </footer>
+
+</body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52655112-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>
