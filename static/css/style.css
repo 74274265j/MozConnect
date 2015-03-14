@@ -616,7 +616,7 @@ a.btn-boxy {
         display: none; } }
   @media screen and (max-width: 600px), screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1.3) {
     .main-header .container .logo {
-      background-position: center center;
+      background-position: bottom center;
       width: 78px;
 	  height: 28px;	  
       background-image: url("../images/MozConnect_mobile_logo.png"); }
@@ -1089,7 +1089,7 @@ a.btn-boxy {
       .main-footer .footer-container {
         background-size: auto 380px;
         height: 60px;
-        padding-top: 380px; } }
+        padding-top: 10px; } }
     @media screen and (max-width: 600px), screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1.3) {
       .main-footer .footer-container {
         background: #f8f8f8;
