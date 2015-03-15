@@ -1110,12 +1110,12 @@ a.btn-boxy {
             background-size: 72px 9px; } }
 
 .circular {
-	width: 300px;
-	height: 300px;
-	border-radius: 150px;
+	width: 190px;
+	height: 190px;
+	border-radius: 185px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
-	background: url(http://link-to-your/image.jpg) no-repeat;
+	background: url("static/images/speaker_sayak_cropped.jpg") no-repeat;
 	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
