@@ -1096,7 +1096,7 @@ a.btn-boxy {
         color: #6d6d6d;
         font-size: 12px;
         padding-top: 20px;
-        padding-bottom: 20px;
+        padding-bottom: 510px;
         height: auto; }
         .main-footer .footer-container a {
           height: 20px;
@@ -1108,6 +1108,7 @@ a.btn-boxy {
             -moz-background-size: 72px 9px;
             -o-background-size: 72px 9px;
             background-size: 72px 9px; } }
+			
 
 .circular {
 	width: 190px;
@@ -1879,10 +1880,10 @@ a.btn-boxy {
     float: right; }
     .page-home.section-updates .twitter h2 {
       color: #49B5DF;
-      padding-right: 70px;
-      text-align: right;
+      padding-left: 70px;
+      text-align: left;
       background-repeat: no-repeat;
-      background-position: right center;
+      background-position: left center;
       background-image: url("../images/twitter_icon.png"); }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
         .page-home.section-updates .twitter h2 {
