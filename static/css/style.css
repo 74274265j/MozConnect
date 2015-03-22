@@ -2112,6 +2112,15 @@ a.btn-boxy {
           -moz-background-size: 22px 26px;
           -o-background-size: 22px 26px;
           background-size: 22px 26px; } }
+    .page-speakers.section-speaker a.social.facebook {
+      background-image: url("../images/facebook_small_icon.png"); }
+      @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+        .page-speakers.section-speaker a.social.facebook {
+          background-image: url("../images/facebook_small_icon%402x.png");
+          -webkit-background-size: 22px 26px;
+          -moz-background-size: 22px 26px;
+          -o-background-size: 22px 26px;
+          background-size: 22px 26px; } }		  
     .page-speakers.section-speaker a.social.github {
       background-image: url("../images/github_small_icon.png"); }
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
