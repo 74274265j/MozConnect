@@ -555,9 +555,14 @@ a.btn-boxy {
     .main-header .container .top-navigation {
       float: right;
       margin-top: 24px;
-      margin-right:21px;}
+      margin-right:12%;}
       .main-header .container .top-navigation ul {
-        list-style: none; }
+        list-style: none; 
+
+      width: 100%;
+      height: inherit;
+      text-align: center;
+      }
         .main-header .container .top-navigation ul li {
           display: inline-block;
           vertical-align: baseline;
